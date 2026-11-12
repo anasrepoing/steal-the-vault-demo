@@ -1,0 +1,137 @@
+[
+  {
+    "username": "amy@example.com",
+    "iterations": 500,
+    "entries": [
+      {
+        "url": "https://bank.example.com",
+        "login": {
+          "mode": "ECB",
+          "ciphertext": "VcYqJveJi82m7ejt4fo0Bg=="
+        },
+        "password": {
+          "mode": "ECB",
+          "ciphertext": "c38HFV3UR8JyFcmUNtBx1A=="
+        }
+      },
+      {
+        "url": "https://mail.example.com",
+        "login": {
+          "mode": "ECB",
+          "ciphertext": "VcYqJveJi82m7ejt4fo0Bg=="
+        },
+        "password": {
+          "mode": "ECB",
+          "ciphertext": "c38HFV3UR8JyFcmUNtBx1A=="
+        }
+      },
+      {
+        "url": "https://shop.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "wFpAZcZDoX3Tz6Q3hjvRnA==",
+          "ciphertext": "rp29umEl6Ury13MkTG/zSA=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "J4SaLC8ChcsCbIkH7DyCxQ==",
+          "ciphertext": "PfAErtc2bg2KTOBUc3FhwQ=="
+        }
+      }
+    ]
+  },
+  {
+    "username": "bob@example.com",
+    "iterations": 5000,
+    "entries": [
+      {
+        "url": "https://social.example.com",
+        "login": {
+          "mode": "ECB",
+          "ciphertext": "7l2PZq+W8csy0DyJh+OWeA=="
+        },
+        "password": {
+          "mode": "ECB",
+          "ciphertext": "sC0hGfBB3joFPj6wM8p4JQ=="
+        }
+      },
+      {
+        "url": "https://stream.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "7EoK+HinfRJkQmiRqtFmRQ==",
+          "ciphertext": "gFZJpyA/3+vRzZzriOaKHw=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "J/4nj2PGd7zAXtZb/wQTNA==",
+          "ciphertext": "nQBfDVMB1pQI/ULStVLPxw=="
+        }
+      }
+    ]
+  },
+  {
+    "username": "carol@example.com",
+    "iterations": 100100,
+    "entries": [
+      {
+        "url": "https://bank.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "h3OrSdllGxU2mYSED8jVNw==",
+          "ciphertext": "gYOwc5+3O5v8Mfz2UZU1Fg=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "V3tgjP9z41c/+Evh2BTFaA==",
+          "ciphertext": "n9fb6FYSV9sdoZLljQs1+w=="
+        }
+      },
+      {
+        "url": "https://work.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "CGVzoYPrpfESAOJgz6/OHg==",
+          "ciphertext": "tSLNC0uPrw8ng86d2XLnvA=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "p5majD8bo1ruQdJs5v1SpQ==",
+          "ciphertext": "TcTHXtMaOTaL3Bzbvze/Pw=="
+        }
+      }
+    ]
+  },
+  {
+    "username": "dave@example.com",
+    "iterations": 600000,
+    "entries": [
+      {
+        "url": "https://crypto.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "VWQRQ3p6gvrBQgLW2t8WYg==",
+          "ciphertext": "CPeTWv79n8Zrnq8JufGZQQ=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "20fdXFPvVci57h+FO3bZrQ==",
+          "ciphertext": "uR2MAsxvGniBW3naI3m05A=="
+        }
+      },
+      {
+        "url": "https://mail.example.com",
+        "login": {
+          "mode": "CBC",
+          "iv": "Cla+tbPdFEGVFAY8VKqMeA==",
+          "ciphertext": "CX19ynlI/+5PPW+E4+lSTg=="
+        },
+        "password": {
+          "mode": "CBC",
+          "iv": "B/iVWxPv/cR+Bkm55+Gy9A==",
+          "ciphertext": "75AXAmV83fQVmsctoXGrZQ=="
+        }
+      }
+    ]
+  }
+]
