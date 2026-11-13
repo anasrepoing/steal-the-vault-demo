@@ -12,4 +12,7 @@ This project simulates a cloud-based password manager (modeled after LastPass an
 - Jessica: presentation
 
 ## Status
-Work in progress. Setup and usage instructions coming soon...
+Work in progress. 
+(Update 11/13)
+- Done so far: vault generator, mock server + client, breach script
+- What's next: cracking the weakest vault + cost estimate, full setup/run instructions and code documentation
