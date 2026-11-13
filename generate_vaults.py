@@ -61,6 +61,17 @@ def deriveKey(master_password, username, iterations):
         dklen=32,                          # 32 bytes = 256 bits
     )
 
+def deriveAuthHash(key, master_password):
+    """One more PBKDF2 round on the key -> the value the client sends to log in."""
+    auth = hashlib.pbkdf2_hmac(
+        "sha256",
+        key,                               # the vault key from deriveKey
+        master_password.encode("utf-8"),   # master password used as the salt
+        1,                                 # a single round
+        dklen=32,
+    )
+    return auth.hex()
+
 def pad(data):
     """Fill out the last 16-byte block so AES can process it."""
     padder = padding.PKCS7(128).padder()
@@ -106,6 +117,7 @@ def buildVault(user):
     return {
         "username": user["username"],
         "iterations": user["iterations"],  # stored right next to the vault
+        "auth_hash": deriveAuthHash(key, user["master_password"]),  # server checks this at login
         "entries": entries,
     }
 

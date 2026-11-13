@@ -2,6 +2,7 @@
   {
     "username": "amy@example.com",
     "iterations": 500,
+    "auth_hash": "dd17e23e476edc7e6215c88db1d407909440f73754c81d5085ae7b7050767d9b",
     "entries": [
       {
         "url": "https://bank.example.com",
@@ -29,13 +30,13 @@
         "url": "https://shop.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "wFpAZcZDoX3Tz6Q3hjvRnA==",
-          "ciphertext": "rp29umEl6Ury13MkTG/zSA=="
+          "iv": "ugXxy2m1SY8AzRHZHDVfSA==",
+          "ciphertext": "7xuA0s5D08ykhrOXZDZ6uw=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "J4SaLC8ChcsCbIkH7DyCxQ==",
-          "ciphertext": "PfAErtc2bg2KTOBUc3FhwQ=="
+          "iv": "jhMBPLoSdLBkyFhiJGCYdA==",
+          "ciphertext": "50/zqxMT3T4/sZTPGDncyg=="
         }
       }
     ]
@@ -43,6 +44,7 @@
   {
     "username": "bob@example.com",
     "iterations": 5000,
+    "auth_hash": "800ba65eaffc76a3d4d8369320567b7615ab9a1486c609373e7f8b9f0dc110b6",
     "entries": [
       {
         "url": "https://social.example.com",
@@ -59,13 +61,13 @@
         "url": "https://stream.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "7EoK+HinfRJkQmiRqtFmRQ==",
-          "ciphertext": "gFZJpyA/3+vRzZzriOaKHw=="
+          "iv": "/cpPfctzdLK2AQO/wL5JyQ==",
+          "ciphertext": "MVClCoi5xKr2nAak9lcSRQ=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "J/4nj2PGd7zAXtZb/wQTNA==",
-          "ciphertext": "nQBfDVMB1pQI/ULStVLPxw=="
+          "iv": "XOx68/qfxkBHWOyObQowGQ==",
+          "ciphertext": "wjyY+Y3t26rpFW6RWGshJw=="
         }
       }
     ]
@@ -73,31 +75,32 @@
   {
     "username": "carol@example.com",
     "iterations": 100100,
+    "auth_hash": "23213d74eb1538c8e5efb9fa30cc4a7ad0f0c7e09cb215df8a4103413a694b7d",
     "entries": [
       {
         "url": "https://bank.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "h3OrSdllGxU2mYSED8jVNw==",
-          "ciphertext": "gYOwc5+3O5v8Mfz2UZU1Fg=="
+          "iv": "KOvPMwuulPJLou+6GuHIIg==",
+          "ciphertext": "mM6d90lw/j5ToTxqGeKIhw=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "V3tgjP9z41c/+Evh2BTFaA==",
-          "ciphertext": "n9fb6FYSV9sdoZLljQs1+w=="
+          "iv": "0vI+uRg9zuh2nAk8N1TjjA==",
+          "ciphertext": "lmZUYSM0TdCIXDqrVuVHCA=="
         }
       },
       {
         "url": "https://work.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "CGVzoYPrpfESAOJgz6/OHg==",
-          "ciphertext": "tSLNC0uPrw8ng86d2XLnvA=="
+          "iv": "+uwhtskat/Ru3YTBZOBdTQ==",
+          "ciphertext": "1pZ4OFNs0NRt9S124lstqA=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "p5majD8bo1ruQdJs5v1SpQ==",
-          "ciphertext": "TcTHXtMaOTaL3Bzbvze/Pw=="
+          "iv": "2pIIy8vAza/wm6Lj1tU5Tg==",
+          "ciphertext": "HDFa3dO7x+mQ+qTWE8HqRw=="
         }
       }
     ]
@@ -105,31 +108,32 @@
   {
     "username": "dave@example.com",
     "iterations": 600000,
+    "auth_hash": "90f968f75539d039d48157ecb82898ccd9e256a6327577c90f523641e61a486f",
     "entries": [
       {
         "url": "https://crypto.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "VWQRQ3p6gvrBQgLW2t8WYg==",
-          "ciphertext": "CPeTWv79n8Zrnq8JufGZQQ=="
+          "iv": "xhhm2wC9wlGbpf5Vn6wxvg==",
+          "ciphertext": "xuKXN87Z3yffRT13cY2XxQ=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "20fdXFPvVci57h+FO3bZrQ==",
-          "ciphertext": "uR2MAsxvGniBW3naI3m05A=="
+          "iv": "QSg4bpimR+tioaiu0TAt7w==",
+          "ciphertext": "ZHO+mkncS7OOOOMnpa0R3g=="
         }
       },
       {
         "url": "https://mail.example.com",
         "login": {
           "mode": "CBC",
-          "iv": "Cla+tbPdFEGVFAY8VKqMeA==",
-          "ciphertext": "CX19ynlI/+5PPW+E4+lSTg=="
+          "iv": "J1lwsGjKhl8fcwFhuMdNtA==",
+          "ciphertext": "lijEj0r6HTC4qMS0RvvL4Q=="
         },
         "password": {
           "mode": "CBC",
-          "iv": "B/iVWxPv/cR+Bkm55+Gy9A==",
-          "ciphertext": "75AXAmV83fQVmsctoXGrZQ=="
+          "iv": "by9OkSH7MVfOsASZLyYBkA==",
+          "ciphertext": "iw/eYo0IjMQZG9aI4YTGvg=="
         }
       }
     ]
